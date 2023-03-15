@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(imgs/space.jpg);
+  background-size: contain;
+}
+.all_kits_nest{
+  background-color: black;
+  /* color: rgb(0, 208, 255); */
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 4px;
+  border-radius: 25px;
+  background-image: url(imgs/stars.jpg);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.all_kits{
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 50px;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-image: url(imgs/space.jpg);
+  background-size: cover;
+  width: 40px;
+  height: 65px;
+}
+.all_kits p{
+  margin: 0;
+  padding: 0;
+  margin: top 5px;
+  color: white;
+}
+.all_kits h1{
+  padding: 0;
+  margin: 0;
+  color: rgb(0, 208, 255);
+}
+.sound_onclick{
+  width: 65px;
+  height: 100px;
+  /* border: solid black 5px; */
+  /* border: solid gold 2px; */
+  border: solid rgb(0, 208, 255) 3px;
+  border-radius: 15px;
+}
+
+.all_kits:hover{
+  width: 45px;
+  height: 75px;
+  cursor: pointer;
+}

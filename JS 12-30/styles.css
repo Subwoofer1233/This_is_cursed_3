@@ -1,0 +1,19 @@
+body{
+    background: black;
+}
+.dukie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dukieH1{
+    color: white;
+    font-size: 150px;
+}
+.plswork{
+    color: red;
+    font-size: 250px;
+    background-color: rgba(0, 0, 255, 0.145);
+    border: red 3px solid;
+    border-radius: 30px;
+}

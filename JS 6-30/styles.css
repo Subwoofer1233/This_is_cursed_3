@@ -1,0 +1,191 @@
+html{
+    background-color: black;
+    color: white;
+    background-color: (26, 26, 26);
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 1000px;
+    min-width: 1900px;
+    max-height: 1000px;
+    max-width: 1900px;
+}
+
+
+
+.searchBoxStart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: transparent;
+    border-radius: 9px;
+    border: rgb(255, 255, 255, 0.779) solid 2px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+.searchBoxReady{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 75px;
+    background-color: transparent;
+    border-radius: 13px;
+    border: rgb(255, 255, 255, 0.779) solid 2px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+    margin-top: 50px;
+}
+
+
+
+.mainSearchBoxDiv{
+    min-height: 250px;
+    min-width: 500px;
+    background-color: transparent;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 100px;
+    left: 25%; */
+}
+.mainSearchBoxDivStart{
+    min-height: 250px;
+    min-width: 500px;
+    background-color: transparent;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-100%);
+}
+
+
+
+.answersStart{
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    width: 300px;
+    height: 75px;
+    font-size: 10px;
+    display: flex;
+    padding-right: 30px;
+    margin-right: 10px;
+
+}
+.answersReady{
+    width: 900px;
+    height: 300px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+
+
+h2{
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgb(31, 31, 31);
+    border: solid 1px rgb(31, 31, 31);
+    color: white;
+    font-size: 30px;
+}
+.mouse:hover{
+    cursor: pointer;
+}
+li{
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: white;
+    border: solid 1px rgb(31, 31, 31);
+    color: black;
+}
+p{
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: white;
+    border: solid 1px rgb(31, 31, 31);
+    color: black;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.779);
+}
+.yelloBoy{
+    background-color: gold;
+    font-size: 73px;
+    border-radius: 20px;
+}
+
+
+
+.theStartPage h1{
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 400px;
+    background-color: transparent;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(imgs/stars.jpg);
+    background-size: contain;
+}
+.theStartPage h1:hover{
+    border-radius: 20px;
+    background-color: rgb(26, 26, 26);
+    cursor: pointer;
+    font-size: 410px;
+    transform: translateY(-1rem);
+    /* translate */
+}
+.theStartPage{
+    background-color: black;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+}
+.startGone{
+    z-index: 0;
+    background-color: transparent;
+    /* position: absolute;  */
+    /* top: 50px;
+    right: 50px; */
+    min-width: 250px;
+    min-height: 150px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startGone h1{
+    font-size: 35px;
+    display: inline-block;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(imgs/stars.jpg);
+    background-size: contain;
+}
+.startGone h1:hover{
+    border-radius: 20px;
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 40px;
+}

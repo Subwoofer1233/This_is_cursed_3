@@ -1,0 +1,73 @@
+html{
+    /* background: #018DED url(http://unsplash.it/1500/1000?image=881&ur=50); */
+    background: #018DED url(imgs/stars.jpg);
+    background-size: cover;
+    font-family: "helvetica neue";
+    text-align: center;
+    font-size: 10px;
+}
+body{
+    font-size: 2rem;
+    display: flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    width: 45rem;
+    height: 45rem;
+    border: 7px solid rgb(0, 208, 255);
+    border-radius: 10%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: url(imgs/space.jpg);
+    background-size: cover;
+    color: rgb(0, 208, 255);
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    /* box-shadow: 0 0 0px 4px rgba(0,0,0,0.1),
+    inset 0 0 0 3px #181616,
+    inset 0 0 10px white,
+    0 0 10px rgba (0,0,0,0.2); */
+}
+.clock h1{
+    display: block;
+}
+.clock_face{
+    position: relative;
+    width: 75rem;
+    height: 75rem;
+    transform: translateY(-3px);
+    background: url(imgs/space.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 208, 255);
+}
+.hand{
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 15px;
+    background-color: rgb(0, 208, 255);
+    border: black solid 1px;
+    border-radius: 25% 0% 0%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2,5, 0.60, 1);
+}
+/* .hour_hand{
+}
+.min_hand{
+
+}
+.second_hand{
+
+} */
